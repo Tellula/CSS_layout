@@ -16,7 +16,6 @@ body {
 }
 
 .zone {
-  cursor: pointer;
   color: #fff;
   font-size: 2em;
   border-radius: 4px;
@@ -91,6 +90,7 @@ a:hover {
   grid-column-gap: 40px;
   grid-row-gap: 40px;
   padding: 20px;
+  cursor: default;
 }
 
 .item {
@@ -99,6 +99,7 @@ a:hover {
   align-items: center;
   background-color: #212325;
   height: 500px;
+  cursor: pointer;
 }
 
 img {
@@ -113,6 +114,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
